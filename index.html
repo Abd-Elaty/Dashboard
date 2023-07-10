@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0075FF" />
+    <title>Dashboard</title>
+    <link rel="icon" href="imgs/Shape.png" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body class="d-grid">
+    <header class="shadow-sm d-flex align-items-center justify-content-between">
+      <div class="search">
+        <i class="fa-solid fa-search me-2"></i>
+        <span class="d-none d-sm-inline-block">Search</span>
+      </div>
+      <form class="left position-absolute shadow-sm overflow-hidden rounded-1">
+        <button type="submit">
+          <i class="fa-solid fa-search"></i>
+        </button>
+        <input type="search" class="focus" />
+      </form>
+      <div class="right me-5">
+        <img src="imgs/user.jpg" class="me-3" style="border-radius:50%;"/>
+        <span>Ibrahim Abd Elaty</span>
+        <span class="arrow"></span>
+        <div class="multi-users position-absolute">
+          <div class="user">
+            <img src="imgs/user.png " class="me-3" />
+            <span>User One</span>
+          </div>
+          <div class="user">
+            <img src="imgs/user.png" class="me-3" />
+            <span>User Two</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- aside -->
+    <aside class="d-flex justify-content-center flex-wrap">
+      <div class="top">
+        <a href="index.html"><img src="imgs/Shape.png" /></a>
+      </div>
+      <div
+        class="center flex-grow-1 d-flex justify-content-center align-content-start "
+      >
+        <i class="fa-solid fa-layer-group active home"></i>
+        <i class="fa-solid fa-square" data-cont="Content"></i>
+        <i class="fa-solid fa-tag" data-cont="Tags"></i>
+        <i class="fa-solid fa-location-dot" data-cont="Maps"></i>
+      </div>
+    </aside>
+    <!-- main -->
+    <main class="position-relative">
+      <div class="content rounded-1 bg-white h-100">
+        <div class="cards d-flex justify-content-around justify-content-lg-between justify-content-xxl-start flex-wrap">
+          <div class="acard text-white rounded-1">
+            <p>June 15, 2020</p>
+            <h2>The startup funding</h2>
+            <p>Read more</p>
+          </div>
+          <div class="bcard">
+            <img src="imgs/2.png" />
+            <p>This very first article</p>
+            <p>
+              It is a long established fact that a reader will be distracted by
+              the readable content one more filler word.
+            </p>
+            <div>
+              <span>Read more</span>
+              <span>June 15, 2020</span>
+            </div>
+          </div>
+          <div class="bcard">
+            <img src="imgs/3.png" />
+            <p>This very first article</p>
+            <p>
+              It is a long established fact that a reader will be distracted by
+              the readable content one more filler word.
+            </p>
+            <div>
+              <span>Read more</span>
+              <span>June 15, 2020</span>
+            </div>
+          </div>
+          <div class="bcard">
+            <img src="imgs/4.png" />
+            <p>This very first article</p>
+            <p>
+              It is a long established fact that a reader will be distracted by
+              the readable content one more filler word.
+            </p>
+            <div>
+              <span>Read more</span>
+              <span>June 15, 2020</span>
+            </div>
+          </div>
+        </div>
+        <div class="under d-flex ">
+          <img src="imgs/5.jpg" alt="" />
+          <div class="bottom">
+            <div class="top">
+              <span>This very first article</span>
+              <span class="rounded-pill d-inline-block">LATEST</span>
+            </div>
+            <p>
+              It is a long established fact that a reader will be distracted by
+              the readable content one more filler word. I must explain to you how
+              all this mistaken idea of denouncing pleasure and praising pain was
+              born and I will give you a complete account of the system,.
+            </p>
+            <div class="bott">
+              <span>Read more</span>
+              <span>June 15, 2020</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- the main js script file -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
